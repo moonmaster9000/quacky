@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.files      = Dir["lib/**/*"] << "VERSION" << "LICENSE"
   s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency "activesupport", "~> 3.2.5"
+  s.add_dependency "activesupport", ">= 3.2.5", "< 7.1.0"
   s.add_development_dependency "rspec"
   s.add_development_dependency "cucumber"
   s.add_development_dependency "specdown"
